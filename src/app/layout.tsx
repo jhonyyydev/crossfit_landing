@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     icon: "/images/favicon.svg",
   },
   description:
-    "Maneja hoy, preocúpate después. Todo incluido en un pago mensual.",
+    "Proyecto personal de Owen Veloza",
 };
 
 export default function RootLayout({
