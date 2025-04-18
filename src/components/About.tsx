@@ -8,7 +8,7 @@ export default function About() {
                             Sobre el Proyecto
                         </h2>
                         <p className="text-lg mb-4">
-                            Este proyecto para la asignatura "Bases del Entrenamiento" explora los fundamentos del CrossFit como
+                            Este proyecto para la asignatura Bases del Entrenamiento explora los fundamentos del CrossFit como
                             metodología de entrenamiento funcional de alta intensidad.
                         </p>
                         <p className="text-lg mb-4">

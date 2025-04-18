@@ -4,6 +4,7 @@ import type React from "react"
 
 import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import Image from "next/image"
 
 const images = [
     "/images/hero1.jpg?height=800&width=1600",
@@ -42,7 +43,7 @@ export default function Hero() {
                             }`}
                     >
                         <div className="absolute inset-0 bg-black/50 z-10" aria-hidden="true" />
-                        <img
+                        <Image
                             src={src || "/placeholder.svg"}
                             alt={`CrossFit imagen ${index + 1}`}
                             className="h-full w-full object-cover"

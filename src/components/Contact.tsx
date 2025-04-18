@@ -1,4 +1,5 @@
-import { Award, BookOpen, Dumbbell, GraduationCap, Mail, MapPin, Phone, Trophy, Users } from "lucide-react"
+import { Dumbbell, GraduationCap, Mail, MapPin, Phone } from "lucide-react"
+import Image from "next/image"
 
 export default function Contact() {
     return (
@@ -60,7 +61,7 @@ export default function Contact() {
                     <div className="md:w-1/2 bg-timberwolf text-black p-8 rounded-lg">
                         <div className="flex flex-col items-center mb-8">
                             <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-imperial_red mb-4">
-                                <img
+                                <Image
                                     src="/images/profile-pic.png?height=200&width=200"
                                     alt="Foto de perfil profesional"
                                     className="w-full h-full object-cover"
